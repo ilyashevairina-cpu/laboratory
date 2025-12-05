@@ -850,7 +850,7 @@ body.view-control-buttons .viewControlButton {
   bottom: 30px;
   right: 30px;
   z-index: 1000;
-  opacity: 0.6;
+  opacity: 0.8;
   transition: opacity 0.3s ease;
 }
 
@@ -859,12 +859,12 @@ body.view-control-buttons .viewControlButton {
 }
 
 .logo-img {
-  width: 280px;
+  width: 336px;
   /* Настройте размер! */
-  height: 60px;
+  height: 72px;
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  background-color: rgba(255, 255, 255, 0.521);
+  background-color: rgba(255, 255, 255, 0);
   /* Фон для прозрачных PNG */
   padding: 5px;
 }
