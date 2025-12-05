@@ -828,3 +828,27 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+
+/* Логотип в правом нижнем углу */
+.logo-corner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.logo-corner:hover {
+  opacity: 1;
+}
+
+.logo-img {
+  width: 60px;      /* Настройте размер! */
+  height: 60px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  background-color: white;  /* Фон для прозрачных PNG */
+  padding: 5px;
+}
